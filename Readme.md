@@ -1,16 +1,14 @@
-Archlinux Theme for SDDM
-------------------------
-SDDM is a Login Manager for Linux which can be themed by qml. This theme is designed for archlinux users.
+Arch Linux Theme for SDDM
+---
+SDDM is a Display Manager for Linux which can be themed by qml. This theme is designed for Arch Linux users.
 
-![Alt Screenshot](https://raw.githubusercontent.com/absturztaube/sddm-archlinux-theme/master/archlinux/screenshot.png "SDDM Archlinux Theme")
+![Alt Screenshot](https://raw.githubusercontent.com/absturztaube/sddm-archlinux-theme/master/archlinux/screenshot.png "SDDM Arch Linux Theme")
 
-The Theme is available through AUR: 
-* sddm-archlinux-theme-git
-* https://aur.archlinux.org/packages/sddm-archlinux-theme-git/
-* thx bchretien for submitting and maintaining the package
+The theme is available [AUR/sddm-archlinux-theme-git](https://aur.archlinux.org/packages/sddm-archlinux-theme-git)
+* Thanks to Scimmia for maintaining the AUR package and to bchretien for submitting it
 
 Manual Installation
--------------------
-* copy the folder archlinux to /usr/share/apps/sddm/themes/
-* change CurrentTheme to archlinux in /etc/sddm.conf
-* enjoy
+---
+* Copy the folder archlinux to /usr/share/apps/sddm/themes/
+* Change CurrentTheme to archlinux in /etc/sddm.conf
+* Enjoy
