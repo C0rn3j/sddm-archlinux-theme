@@ -11,12 +11,12 @@ Rectangle {
     Connections {
         target: sddm
 
-        onLoginSucceeded: {
+        function onLoginSucceeded {
             errorMessage.color = "steelblue"
             errorMessage.text = textConstants.loginSucceded
         }
 
-        onLoginFailed: {
+        function onLoginFailed {
             errorMessage.color = "red"
             errorMessage.text = textConstants.loginFailed
         }
